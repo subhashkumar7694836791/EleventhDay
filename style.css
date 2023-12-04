@@ -1,0 +1,48 @@
+*
+{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+html,body
+{
+height:100%;
+width:100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.key {
+  border: 1px solid #999;
+  background-color: #eee;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  display: inline-flex;
+  align-items: center;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 20px;
+  flex-direction: column;
+  margin: 10px;
+  min-width: 150px;
+  color: blue;
+  cursor: pointer;
+  position: relative;
+}
+
+.key small {
+  position: absolute;
+  top: -29px;
+  left: 0;
+  text-align: center;
+  width: 100%;
+  font-weight: 800;
+  color: #d24141;
+  font-size: 24px;
+}
